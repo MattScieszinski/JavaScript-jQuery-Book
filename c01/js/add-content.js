@@ -5,7 +5,7 @@ var greeting;
 if(hourNow > 18) {
     greeting = 'Bonsoir !';
 } else if (hourNow > 12) {
-    greeting = 'Bon aprês-midi !';
+    greeting = 'Salut !';
 } else if (hourNow > 0) {
     greeting = 'Bonjour !';
 } else {
