@@ -3,9 +3,9 @@ var hourNow = today.getHours();
 var greeting;
 
 if(hourNow > 18) {
-    greeting = 'Bonne Nuit !';
+    greeting = 'Bonsoir !';
 } else if (hourNow > 12) {
-    greetinng = 'Bonne Soir !';
+    greeting = 'Bon aprês-midi !';
 } else if (hourNow > 0) {
     greeting = 'Bonjour !';
 } else {
